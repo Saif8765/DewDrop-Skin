@@ -31,6 +31,8 @@ $loginSectionContent=getContent('login.content',true);
         <input id="uname" name="username" type="text" class="form-control form--control"  placeholder="@lang('Enter Username')" value="{{ old('username') }}">
     </div>
     <div class="form--group">
+
+        <div>Hi</div>
         <label for="pass" class="form-label">@lang('Password')<span>*</span></label>
         <div class="password-wrapper">
             <input id="pass" name="password" type="password" class="form-control form--control" placeholder="@lang('Enter Password')">
